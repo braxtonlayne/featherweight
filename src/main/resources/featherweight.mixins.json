@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.featherweight.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "StructureTemplateManagerMixin",
+    "IronsImbueRecipeMixin",
+    "StructureTemplateAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
